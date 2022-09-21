@@ -1,4 +1,5 @@
 
 package main
-haha
+func main(){
+}
 
