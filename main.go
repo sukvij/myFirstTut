@@ -18,6 +18,9 @@ func Mul(a, b int) int {
 }
 
 func Div(a, b int) int {
+	if b == 0 {
+		return -1
+	}
 	return a / b
 }
 
