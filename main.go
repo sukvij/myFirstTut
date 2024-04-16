@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import "github.com/gin-gonic/gin"
 
 func main() {
-	fmt.Println("mains")
+	app := gin.Default()
+	app.GET("/user", func(ctx *gin.Context) {
+		ctx.JSON(200, "welcome to the users list......")
+	})
+	app.Run(":8080")
 }
