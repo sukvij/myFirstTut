@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	x := 300
+	x := 100
 	fmt.Println(x)
 }
