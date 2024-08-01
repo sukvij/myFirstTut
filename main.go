@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	x := 200
-	y := 100
-	fmt.Println(x, y)
+	y := 10000
+	z := 300
+	fmt.Println(x, y, z)
 }
