@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	x := 100
-	fmt.Println(x)
+	x := 200
+	y := 100
+	fmt.Println(x, y)
 }
